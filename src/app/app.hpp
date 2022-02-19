@@ -1,14 +1,10 @@
-#ifndef _APP_APP_HPP
-#define _APP_APP_HPP
+#ifndef _MARS_APP_HPP
+#define _MARS_APP_HPP
 
 namespace app {
-   class App {
-   public:
-      App(int argc, char* argv[]);
-      ~App();
+   class Application {
 
-      bool run();
-   }; 
+   };
 } // namespace app
 
 #endif
