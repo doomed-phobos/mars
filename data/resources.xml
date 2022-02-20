@@ -4,6 +4,6 @@
       <file>example.png</file>
    </gresource>
    <gresource prefix="/ui">
-      <file>menubar.xml</file>
+      <file>menubar.ui</file>
    </gresource>
 </gresources>
