@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 project(mars VERSION 0.1.0)
 
+set(DATA_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/data)
+
 add_subdirectory(src)
