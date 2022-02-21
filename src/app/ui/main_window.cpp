@@ -1,6 +1,7 @@
 #include "app/ui/main_window.hpp"
 
-#include <giomm/simpleactiongroup.h>
+// TODO: Add functions to load files,
+//       All entry possibles forward to an one function
 
 namespace app {
    MainWindow::MainWindow() :
@@ -8,6 +9,7 @@ namespace app {
       set_title("Mars");
       set_position(Gtk::WIN_POS_CENTER);
       configureMenuBar();
+
    }
 
    void MainWindow::configureMenuBar() {
